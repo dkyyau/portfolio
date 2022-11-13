@@ -102,7 +102,7 @@ export const MainSubheading = styled.p`
 
   @media ${mobileS} {
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: ${textMedium};
     text-transform: uppercase;
@@ -123,6 +123,7 @@ export const MainSubheading = styled.p`
   }
 
   @media ${tabletMin} {
+    font-size: 1.5rem;
     letter-spacing: 0.25rem;
     margin: 0 0 0 24px;
   }

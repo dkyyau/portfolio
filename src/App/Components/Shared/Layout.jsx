@@ -1,4 +1,4 @@
-import { BackgroundBase } from './Shared.style';
+import { Background } from './Shared.style';
 import {
   StripeTopBack,
   StripeTopMain,
@@ -9,11 +9,11 @@ import {
   StripeBottomMain,
   StripeBottomBack,
   CreditText,
-} from './Background.style';
+} from './Layout.style';
 
-const Background = ({ children }) => {
+const Layout = ({ children }) => {
   return (
-    <BackgroundBase>
+    <Background>
       <StripeTopBack>
         <StripeTopMain>
           <MainHeading>
@@ -30,8 +30,8 @@ const Background = ({ children }) => {
           <CreditText>Built by Dorothy Yau | 2022</CreditText>
         </StripeBottomMain>
       </StripeBottomBack>
-    </BackgroundBase>
+    </Background>
   );
 };
 
-export default Background;
+export default Layout;

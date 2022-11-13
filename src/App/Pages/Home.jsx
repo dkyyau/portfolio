@@ -1,4 +1,4 @@
-import Background from '../Components/Shared/Background';
+import Background from '../Components/Shared/Layout';
 import Content from '../Components/Home/Content';
 
 const Home = () => {

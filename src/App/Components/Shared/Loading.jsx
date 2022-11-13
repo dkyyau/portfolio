@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { colours } from '../../../Utils/tokens';
-import { BackgroundBase } from './Shared.style';
+import { Background } from './Shared.style';
 
 const { primary, secondary } = colours;
 
@@ -40,13 +40,13 @@ const Dot = styled.div`
 
 const Loading = () => {
   return (
-    <BackgroundBase>
+    <Background>
       <Dots>
         <Dot />
         <Dot />
         <Dot />
       </Dots>
-    </BackgroundBase>
+    </Background>
   );
 };
 

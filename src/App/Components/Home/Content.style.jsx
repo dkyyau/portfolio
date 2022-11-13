@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 20px;
 
   @media ${desktopS} {
     width: 800px;
