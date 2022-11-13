@@ -24,7 +24,11 @@ const Content = () => {
       <Subheading>Links</Subheading>
       <LinkList>
         <li>
-          <Link href="mailto:dkyyau@gmail.com" target="_blank">
+          <Link
+            href="mailto:dkyyau@gmail.com"
+            target="_blank"
+            aria-label="Email"
+          >
             <MailIcon />
           </Link>
         </li>

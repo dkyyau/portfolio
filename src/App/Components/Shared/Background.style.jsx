@@ -19,7 +19,7 @@ export const StripeTopBack = styled.div`
   }
 `;
 
-export const StripeTopMain = styled.div`
+export const StripeTopMain = styled.header`
   position: absolute;
   top: 10px;
   left: 10px;
@@ -49,7 +49,7 @@ export const StripeBottomBack = styled.div`
   }
 `;
 
-export const StripeBottomMain = styled.div`
+export const StripeBottomMain = styled.footer`
   box-sizing: border-box;
   position: absolute;
   bottom: 10px;
@@ -128,7 +128,7 @@ export const MainSubheading = styled.p`
   }
 `;
 
-export const MainWrapper = styled.div`
+export const MainWrapper = styled.main`
   position: relative;
   z-index: 100;
   width: 100%;
